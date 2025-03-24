@@ -46,8 +46,8 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos / To run this
 
 1. **Clona este repositorio / Clone this repository:**
    ```sh
-   git clone https://github.com/jrramoncp/online_forum_header
-   cd online_forum_header
+   git clone https://github.com/jrramoncp/footer01_maxwell
+   cd footer01_maxwell
    ```
 
 2. **Instala las dependencias / Install dependencies:**
@@ -56,12 +56,22 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos / To run this
    npm install
    ```
 
-3. **Inicia el entorno de desarrollo con Vite / Start the development server with Vite:**
+3. **Mueve al directorio de la versión que quieras usar / Move to the directory of the version you want to use:**
+   ```sh
+   cd 01a_light 
+   
+   # ó / or
+
+   cd 01b_light
+   ```
+
+
+4. **Inicia el entorno de desarrollo con Vite / Start the development server with Vite:**
    ```sh
    npm run dev
    ```
 
-4. **Abre el navegador en la dirección indicada en la terminal (por defecto, suele ser `http://localhost:5173/`).**  
+5. **Abre el navegador en la dirección indicada en la terminal (por defecto, suele ser `http://localhost:5173/`).**  
    **Open your browser at the address indicated in the terminal (by default, usually `http://localhost:5173/`).**
 
 ---
