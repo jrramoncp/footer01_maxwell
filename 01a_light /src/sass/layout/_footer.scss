@@ -35,6 +35,9 @@ footer.footer{
                     a{
                         color: v.$font-primary-color;
                         font-weight: v.$font-light;
+                        &:hover{
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
