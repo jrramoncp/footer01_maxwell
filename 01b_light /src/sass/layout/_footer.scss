@@ -1,0 +1,53 @@
+@use '../abstract/_variables' as v;
+@use '../abstract/_mixins' as m;
+
+footer.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .footer__top{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        .footer__main{
+            max-width: 25%;
+            h1{
+                font-size: 24px;
+                font-weight: v.$font-semibold;
+            }
+            p{
+                font-size: 16px;
+                font-weight: v.$font-light;
+            }
+        }
+
+        .footer__list{
+            display: flex;
+            gap:50px;
+            ul{
+                @include m.reset-list();
+                li{
+
+                    &.nav__title{
+                        font-weight: v.$font-semibold;
+                        font-size: 14px;
+                    }
+                    font-size: 16px;
+                    a{
+                        color: v.$font-primary-color;
+                        font-weight: v.$font-light;
+                    }
+                }
+            }
+        }
+        
+    }
+    .footer__bottom{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        .img__container{
+            display: flex;
+            gap: 32px;
+        }
+    }
+}
