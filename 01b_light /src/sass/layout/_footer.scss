@@ -1,3 +1,83 @@
 @use '../abstract/_variables' as v;
 @use '../abstract/_mixins' as m;
 
+footer.footer{
+    padding-top: 50px;
+    .footer__top{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        .footer__main{
+            max-width: 30%;
+            h1{
+                font-weight: v.$font-semibold;
+                font-size: 24px;
+                padding-bottom: 15px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+
+        .footer__list{
+            display: flex;
+            gap: 24px;
+            ul{
+                @include m.reset-list;
+                li{
+                    &.nav__title{
+                        font-size: 14px;
+                        font-weight: v.$font-medium;
+                    }
+                    a{
+                        color: v.$font-primary-color;
+                        font-weight: v.$font-light;
+                        font-size: 16px;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+
+                        &.btn{
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            border: 1px solid black;
+                            border-radius: 100px ;
+                            padding: 5px;
+                            font-weight: v.$font-medium;
+                            transition: 0.5s ease;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .footer__bottom__container{
+        background-color: v.$green-color;
+        padding: 20px;
+        .footer__bottom{
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-size: 14px;
+                font-weight: v.$font-regular;
+            }
+            .footer__links{
+                display: flex;
+                gap: 50px;
+                a{
+                    font-size: 14px;
+                    color: v.$font-primary-color;
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
