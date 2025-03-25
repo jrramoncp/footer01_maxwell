@@ -8,17 +8,20 @@
 ### Footer Option 2
 ![Captura de pantalla del proyecto](/screenshots/01b_screenshoot.png)
 
+### Footer Option 3
+![Captura de pantalla del proyecto](/screenshots/02a_dark_screenshoot.png)
+
 ---
 
 ## 📖 Descripción / Description
 
 ### 🇪🇸 Castellano
 
-Este proyecto consiste en dos posibilidades de footer para una web. Actualmente no cuenta con interactividad más allá de los estados *hover* de los enlaces. Está enfocado en diseño. Este proyecto forma parte de mi aprendizaje.
+Este proyecto consiste en cuatro posibilidades de footer para una web, dos en tema claro y dos en tema oscuro. Actualmente no cuenta con interactividad más allá de los estados *hover* de los enlaces. Está enfocado en diseño. Este proyecto forma parte de mi aprendizaje.
 
 ### 🌎 English
 
-This project consists of two footer options for a website. Currently, it has no interactivity beyond the hover states of the links. It is focused on design. This project is part of my learning process.
+This project consists of four footer options for a website two in light theme and two in dark theme. Currently, it has no interactivity beyond the hover states of the links. It is focused on design. This project is part of my learning process.
 
 ---
 
@@ -58,11 +61,8 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos / To run this
 
 3. **Mueve al directorio de la versión que quieras usar / Move to the directory of the version you want to use:**
    ```sh
-   cd 01a_light 
-   
-   # ó / or
+   cd 01a_light #ejemplo / example
 
-   cd 01b_light
    ```
 
 
@@ -81,8 +81,6 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos / To run this
 Una vez iniciado el servidor de desarrollo, podrás visualizar el footer del sitio web. Puedes personalizar los estilos y el contenido según las necesidades específicas de tu proyecto.
 
 Once the development server is running, you can view the website footer. You can customize the styles and content according to your project's specific needs.
-
-También se encuentra desplegado en / It is also deployed on [GitHub Pages](https://jrramoncp.github.io/online_forum_header/).
 
 ---
 
