@@ -11,6 +11,8 @@
 ### Footer Option 3
 ![Captura de pantalla del proyecto](/screenshots/02a_dark_screenshoot.png)
 
+### Footer Option 4
+![Captura de pantalla del proyecto](/screenshots/02b_dark_screenshoot.png)
 ---
 
 ## 📖 Descripción / Description
