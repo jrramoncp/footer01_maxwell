@@ -1,0 +1,46 @@
+@use '../abstract/_variables' as v;
+@use '../abstract/_mixins' as m;
+
+
+.footer__top{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    h4{
+        font-size: 24px;
+        font-weight: v.$font-semibold;
+        max-width: 23%;
+    }
+
+    .form__container{
+        display: flex;
+        align-items: center;
+        gap: 10px;        
+        input{
+            background-color: v.$black-color;
+            background-image: url(/img/user.svg);
+            background-repeat: no-repeat;
+            background-position: center left 15px;
+            background-size: 20px;
+            border: 1px solid v.$white-color;
+            border-radius:100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 50px;
+            padding-left: 40px;
+            font-size: 14px;
+            
+        }
+        .btn{
+            background: v.$green-color;
+            padding: 8px 15px;
+            border-radius: 100px;
+            color: v.$black-color;
+            outline: none;
+            border: none;
+            font-size: 14px;
+            font-weight: v.$font-medium;
+        }
+    }
+}
+
