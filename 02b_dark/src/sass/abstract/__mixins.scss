@@ -1,0 +1,16 @@
+@use '../abstract/_variables' as v;
+
+@mixin reset-list(){
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 5px;
+    align-items: start;
+    
+    li{
+
+        a{
+            text-decoration: none;
+        }
+    }
+}

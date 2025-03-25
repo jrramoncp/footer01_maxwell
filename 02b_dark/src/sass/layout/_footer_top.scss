@@ -1,0 +1,60 @@
+@use '../abstract/_variables' as v;
+@use '../abstract/_mixins' as m;
+
+
+.footer__top{
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    .logo__container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p{
+            font-size: 24px;
+            font-weight: v.$font-semibold;
+        }
+    }
+    h4{
+        font-size: 32px;
+        font-weight: v.$font-semibold;
+        max-width: 40%;
+        text-align: center;
+        padding-bottom: 24px;
+
+    }
+    form{
+        display: flex;
+        align-items: center;
+        gap: 10px;        
+        input{
+            background-color: v.$black-color;
+            background-image: url(/img/user.svg);
+            background-repeat: no-repeat;
+            background-position: center left 15px;
+            background-size: 20px;
+            border: 1px solid v.$white-color;
+            border-radius:100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 40px;
+            padding-left: 40px;
+            font-size: 14px;
+            
+        }
+        .btn{
+            background: v.$green-color;
+            padding: 10px 15px;
+            border-radius: 100px;
+            color: v.$black-color;
+            outline: none;
+            border: none;
+            font-size: 14px;
+            font-weight: v.$font-medium;
+        }
+    }
+}
+

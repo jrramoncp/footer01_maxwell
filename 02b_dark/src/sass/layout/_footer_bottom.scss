@@ -1,0 +1,22 @@
+@use '../abstract/_variables' as v;
+@use '../abstract/_mixins' as m;
+
+.footer__bottom{
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 20px;
+        li{
+            a{
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: v.$font-regular;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
